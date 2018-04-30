@@ -48,10 +48,11 @@ header {
 // NAV
 
 nav {
+  z-index: 15;
   width: 100%;
   padding: 10px;
   background: $pink;
-  overflow: hidden;
+  // overflow: hidden;
 
   ul {
     margin: 0 auto;
@@ -71,10 +72,14 @@ nav {
         text-decoration: none;
         text-transform: uppercase;
 
-        &:hover {
+        &:hover,:active {
           border-radius: 200px;
           transition: background 0.5s;
           background: $light-pink;
+        }
+
+        &:visited {
+          color: $white;
         }
       }
     }

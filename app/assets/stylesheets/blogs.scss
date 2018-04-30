@@ -1,0 +1,34 @@
+// Place all the styles related to the blogs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// REUSABLE COMPONENTS
+$font-main: 'Playfair Display', serif;
+$blue-grey: #0E1F2D;
+$blue-grey-shadow: rgba(5, 17, 28, 0.2);
+$pink: #935B6A;
+$light-pink: #D9B4BE;
+$white: #fff;
+
+#blog_table {
+  padding:10px;
+  text-align: center;
+  p {
+  font-family: $font-main;
+  }
+}
+
+#blog_category {
+  text-transform: uppercase;
+}
+
+#blog_table_inner {
+  height: 500px;
+  border: 2px solid $pink;
+  padding: 20px;
+  h2, #blog_description {
+    height: 75px;
+  }
+  .img-responsive {
+    margin: 10px auto;
+  }
+}

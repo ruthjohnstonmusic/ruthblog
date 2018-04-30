@@ -1,0 +1,11 @@
+<div class="col-sm-6 col-md-4" id="blog_table">
+  <div id="blog_table_inner">
+    <%= image_tag(blog.img_url, class: "img-responsive") %>
+    <a href="#" id="blog_title"><h2><%=link_to blog.title, blog %></h2></a>
+    <a href="#" id="blog_category"><%= blog.category %></p></a>
+    <p id="blog_description"><%= blog.description %></p>
+    <p><%= link_to 'Show', blog %></p>
+    <p><%= link_to 'Edit', edit_blog_path(blog) %></p>
+    <p><%= link_to 'Destroy', blog, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+  </div>
+</div><!-- /col -->
