@@ -18,6 +18,10 @@ $white: #fff;
   }
 }
 
+#blog_title h2 {
+
+}
+
 #blog_category {
   text-transform: uppercase;
 }
@@ -26,7 +30,10 @@ $white: #fff;
   height: 500px;
   border: 2px solid $pink;
   padding: 20px;
-  h2, #blog_description {
+  h2 {
+    margin-bottom: 20px;
+  }
+  #blog_description {
     height: 75px;
   }
   .img-responsive {
