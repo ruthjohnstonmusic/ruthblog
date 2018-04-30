@@ -1,0 +1,256 @@
+/* line 13, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/blogs.scss */
+#blog_table {
+  padding: 10px;
+  text-align: center;
+}
+/* line 16, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/blogs.scss */
+#blog_table p {
+  font-family: "Playfair Display", serif;
+}
+
+/* line 25, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/blogs.scss */
+#blog_category {
+  text-transform: uppercase;
+}
+
+/* line 29, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/blogs.scss */
+#blog_table_inner {
+  height: 500px;
+  border: 2px solid #935B6A;
+  padding: 20px;
+}
+/* line 33, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/blogs.scss */
+#blog_table_inner h2 {
+  margin-bottom: 30px;
+}
+/* line 36, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/blogs.scss */
+#blog_table_inner #blog_description {
+  height: 75px;
+}
+/* line 39, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/blogs.scss */
+#blog_table_inner .img-responsive {
+  margin: 10px auto;
+  overflow: hidden;
+  transition: transform 0.5s, opacity 0.5s;
+}
+/* line 43, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/blogs.scss */
+#blog_table_inner .img-responsive:hover {
+  transform: scale(1.15);
+}
+
+/* line 51, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/blogs.scss */
+.img-lg {
+  display: flex;
+  margin: 30px auto;
+  transform: scale(1.15);
+}
+
+/* line 57, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/blogs.scss */
+p {
+  text-align: center;
+}
+
+/* line 62, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/blogs.scss */
+#blog_table_inner a:hover, #blog_table_inner a :active {
+  border-radius: 5px;
+  transition: background 0.5s;
+  background-color: #D9B4BE;
+  text-decoration: none;
+}
+/* line 68, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/blogs.scss */
+#blog_table_inner a:visited {
+  color: #0E1F2D;
+}
+/* line 1, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 10, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 16, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 22, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 25, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 29, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 39, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/scaffolds.scss */
+td {
+  padding: 0 5px 7px;
+}
+
+/* line 44, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 49, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 53, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 59, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 66, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px -7px 0;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 76, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 82, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+/* line 14, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/simple_pages.scss */
+body {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  color: #0E1F2D;
+}
+
+/* line 20, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/simple_pages.scss */
+h2 {
+  font-size: 240%;
+  text-align: center;
+}
+/* line 23, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/simple_pages.scss */
+h2:after {
+  display: block;
+  height: 3px;
+  background-color: #935B6A;
+  content: " ";
+  width: 100px;
+  margin: 15px auto;
+}
+
+/* line 35, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/simple_pages.scss */
+header {
+  padding: 40px 0;
+}
+/* line 37, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/simple_pages.scss */
+header h1 {
+  color: #935B6A;
+  font-size: 360%;
+  text-align: center;
+  margin: 0;
+  text-shadow: 0px 4px 3px rgba(5, 17, 28, 0.2), 0px 8px 13px rgba(5, 17, 28, 0.2), 0px 18px 23px rgba(5, 17, 28, 0.2);
+}
+
+/* line 50, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/simple_pages.scss */
+nav {
+  z-index: 15;
+  width: 100%;
+  padding: 10px;
+  background: #935B6A;
+}
+/* line 57, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/simple_pages.scss */
+nav ul {
+  margin: 0 auto;
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+  overflow: hidden;
+}
+/* line 64, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/simple_pages.scss */
+nav ul li {
+  display: inline-block;
+  padding: 5px 0;
+}
+/* line 68, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/simple_pages.scss */
+nav ul li a {
+  padding: 5px 20px;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* line 75, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/simple_pages.scss */
+nav ul li a:hover, nav ul li a :active {
+  border-radius: 200px;
+  transition: background 0.5s;
+  background: #D9B4BE;
+}
+/* line 81, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/simple_pages.scss */
+nav ul li a:visited {
+  color: #fff;
+}
+
+/* line 91, /Users/Ruth/Desktop/ruthblog/app/assets/stylesheets/simple_pages.scss */
+footer {
+  width: 100%;
+  font-size: 80%;
+  text-align: center;
+  padding: 10px;
+  background: #935B6A;
+  overflow: hidden;
+  color: #fff;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
