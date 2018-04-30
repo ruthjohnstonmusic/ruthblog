@@ -9,6 +9,7 @@ $pink: #935B6A;
 $light-pink: #D9B4BE;
 $white: #fff;
 
+// INDEX PAGE
 #blog_table {
   padding:10px;
   text-align: center;
@@ -31,4 +32,15 @@ $white: #fff;
   .img-responsive {
     margin: 10px auto;
   }
+}
+
+// SHOW PAGE
+
+.img-lg {
+  display: flex;
+  margin: 30px auto;
+}
+
+p {
+  text-align: center;
 }
